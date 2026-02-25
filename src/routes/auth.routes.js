@@ -12,5 +12,5 @@ router.post("/food-partner/register",authController.registerFoodPartner)
 router.post("/food-partner/login",authController.loginFoodPartner)
 router.get("/food-partner/logout",authController.logoutFoodPartner)
 
-
+ 
 module.exports=router

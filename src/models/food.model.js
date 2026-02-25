@@ -9,7 +9,7 @@ const foodSchema=new mongoose.Schema({
     video:{
         type:"String",
          required:true,
-    },
+    }, 
     description:{
          type:"String",
         

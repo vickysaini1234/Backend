@@ -14,7 +14,7 @@ async function registerUser(req,res){
     if(isUserAlreadyexits){
         return res.status(400).json({
             messages:"User Already exits"
-        })
+        }) 
     }
     const hashpassword= await bcrypt.hash(password,10);
 
